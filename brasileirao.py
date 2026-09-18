@@ -40,7 +40,7 @@ TABLE_TEAMS = [
 generated_rounds = generate_games(TEAMS_SORTED)
 
 # Aqui pode ajustar o número de rodadas que deseja simular (atualmente definido para 10 rodadas)
-while GAMES < 11:
+while GAMES < 10:
     sleep(1)
     # Exibe a rodada atual e a tabela de classificação
     print(Panel(f"[bold yellow]Rodada {GAMES}[/bold yellow]", expand=True))
