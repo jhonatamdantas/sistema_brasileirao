@@ -3,7 +3,7 @@ from rich import print
 from rich.panel import Panel
 from time import sleep
 import random
-from generateGames import generate_games
+from generate_games import generate_games
 import os
 
 # Times do Brasileirão 2026
